@@ -1,0 +1,100 @@
+.create-text {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.title-input {
+  width: 500px;
+  height: 60px;
+  border: 0;
+  background-color: aliceblue;
+  border-radius: 10px 10px 0 0;
+  padding: 0px 250px 0px 250px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 20px;
+  color: #888;
+  padding-left: 20px;
+}
+
+.content-input {
+  width: 1000px;
+  height: 550px;
+  border: 0;
+  background-color: aliceblue;
+  border-radius: 0 0 10px 10px;
+  resize: none;
+}
+
+.submit {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.save {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+#h2 {
+  background-color: aliceblue;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px 15px 10px 15px;
+}
+
+#no-blog {
+  font-size: 70px;
+  text-align: center;
+}
+
+.post {
+  background-color: aliceblue;
+  height: 30px;
+  border-radius: 10px 10px 10px 10px;
+  margin: 10px 150px 40px 150px;
+}
+
+.blog-container {
+  margin: 50px 300px 150px 300px;
+}
+.blog-container > h1 {
+  font-size: 60px;
+  margin: 10px 0px 50px 0px;
+  text-align: center;
+}
+.blog-container > p {
+  margin: 10px 0px 0px 0px;
+  font-size: 30px;
+}
+
+.title-input,
+.content-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit:hover,
+.save:hover {
+  background-color: #ccc;
+}

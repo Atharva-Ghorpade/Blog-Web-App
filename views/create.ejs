@@ -1,0 +1,10 @@
+<%- include("partials/header.ejs") %>
+<div class="create-text">Create your Blog!</div>
+<div class="form">
+<form action="/create" method="POST">
+    <div class="form-row"><input name="title" type="text" class="title-input" placeholder="Title..." /></div>
+    <div class="form-row"><textarea class="content-input" name="content" rows="4" placeholder="Content..." ></textarea></div>
+    <div class="form-row"><input type="submit" class="submit" value="OK" /></div>
+</form>
+</div>
+<%- include("partials/footer.ejs") %>

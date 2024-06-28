@@ -1,0 +1,13 @@
+<%- include("partials/header.ejs") %>
+<div id="posts">
+  <% if (posts.length != 0) {%>
+    <% posts.forEach((post, index) => { %>
+      <div class="post" id="post-<%= post.id %>">
+        <h2 id="h2"><a class="a" href="/blog/<%= index %>/editor"><%= index + 1 %>. <%= post.title %></a></h2>
+      </div>
+    <% }); %>
+    <%} else { %>
+      <h2 id="no-blog">No Blogs to edit!</h2>
+      <% } %>
+</div>
+<%- include("partials/footer.ejs") %>

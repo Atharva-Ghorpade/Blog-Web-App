@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #ffdf74;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  margin-top: 120px;
+}
+
+#navbar-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #ffd034;
+  padding-top: 11px;
+}
+
+#navbar {
+  background-color: #ffd034;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+}
+
+.redirect {
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #ffd034;
+}
+
+.items {
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 50px;
+  background-color: #ffd034;
+}
+
+.nav-list {
+  list-style-type: none;
+  background-color: #ffd034;
+  color: black;
+}
+
+#footer-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  height: 70px;
+  background-color: #ffd034;
+  margin-top: auto;
+}
+
+.social {
+  background-color: #ffd034;
+  height: 30px;
+}
+.social-links {
+  background-color: #ffd034;
+}
+.author {
+  background-color: #ffd034;
+}
+.copyright {
+  background-color: #ffd034;
+}
+
+.footer-list {
+  background-color: #ffd034;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a:link {
+  text-decoration: none;
+  background-color: #ffd034;
+}
+a:visited {
+  text-decoration: none;
+  background-color: #ffd034;
+}
+a:hover {
+  text-decoration: none;
+  background-color: #ffd034;
+}
+a:active {
+  text-decoration: none;
+  background-color: #ffd034;
+}
+
+.a:link {
+  text-decoration: none;
+  background-color: aliceblue;
+  color: black;
+}
+.a:visited {
+  text-decoration: none;
+  background-color: aliceblue;
+  color: black;
+}
+.a:hover {
+  text-decoration: none;
+  background-color: aliceblue;
+  color: black;
+}
+.a:active {
+  text-decoration: none;
+  background-color: aliceblue;
+  color: black;
+}
